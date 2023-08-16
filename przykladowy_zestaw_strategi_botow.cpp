@@ -139,7 +139,7 @@ bool czy_jest_przeciwnik_w_srodku(PUNKT start, PUNKT koniec, vector< string >& m
 }
 
 PUNKT szukaj_kwadratu(PUNKT& punkt, vector< string >& mapa){
-    const int BOK = 6;
+    const int BOK = 8;
     const int ILOSC_DOZWOLONYCH_POWTORZEN = 5;
     for(auto[ dx, dy ] : KIERUNKI_PRZEKATNE){
         PUNKT nowy_punkt = {punkt.x + (dx * BOK), punkt.y + (dy * BOK)};
