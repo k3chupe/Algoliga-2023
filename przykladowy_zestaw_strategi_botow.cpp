@@ -1,3 +1,4 @@
+// Piotr Sulikowski i Jan Szala
 #include <bits/stdc++.h>
 using namespace std;
 const int SZEROKOSC = 35;
@@ -266,7 +267,7 @@ vector< vector< int > > tworzenie_mapy_kto_ma_blizej ( vector< GRACZ >& gracze, 
 PUNKT decyzaj_gdzie_isc( vector< GRACZ >& gracze, vector< string >& mapa,vector< vector< int > >& kto_ma_blizej){
     return {0,0};
 }
- 
+
 PUNKT strategia_laczenia_bfs_ow ( vector< GRACZ >& gracze, vector< string >& mapa){
     vector< vector< int > > kto_ma_blizej = tworzenie_mapy_kto_ma_blizej (gracze, mapa);
     return decyzaj_gdzie_isc(gracze, mapa, kto_ma_blizej);
