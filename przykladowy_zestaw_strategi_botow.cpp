@@ -1,4 +1,3 @@
-/wdbuwbaud
 #include <bits/stdc++.h>
 using namespace std;
 const int SZEROKOSC = 35;
